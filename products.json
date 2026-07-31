@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "brand": "Cerberus Finds",
+    "updatedAt": "2026-07-31",
+    "note": "Fonte única de verdade dos produtos ativos na página. Espelha as colunas: produto | categoria | preço | comissão % | link afiliado | status | data postagem | views | cliques | vendas atribuídas. Campos de performance (views/cliques/vendas) ficam na planilha, não aqui — aqui só o necessário pra renderizar a página."
+  },
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "espelhos", "label": "Espelhos" },
+    { "id": "decor", "label": "Objetos" },
+    { "id": "setup", "label": "Setup" },
+    { "id": "acessorios", "label": "Acessórios" }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "title": "Espelho 100x50 Orgânico Corpo Inteiro Moldura Caramelo",
+      "category": "espelhos",
+      "price": 93.99,
+      "commissionPct": 12,
+      "description": "Formato orgânico, moldura caramelo. Frete grátis, nota 4.6 com mais de 50 mil vendidos.",
+      "image": "assets/prod-001.jpg",
+      "affiliateUrl": "COLE_AQUI_O_LINK_GERADO_NO_MERCADO_LIVRE",
+      "status": "ativo",
+      "featured": true
+    },
+    {
+      "id": "prod-002",
+      "title": "Espelho com Touch e Led 3 Cores 40x60 Jateado Retangular",
+      "category": "espelhos",
+      "price": 128.00,
+      "commissionPct": 28,
+      "description": "Iluminação touch com 3 tons de LED. Nota 4.9, mais de 3,9 mil afiliados já promovendo.",
+      "image": "assets/prod-002.jpg",
+      "affiliateUrl": "COLE_AQUI_O_LINK_GERADO_NA_SHOPEE",
+      "status": "ativo",
+      "featured": false
+    }
+  ]
+}

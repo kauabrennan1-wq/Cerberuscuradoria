@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cerberus Finds — Curadoria de Achados</title>
+<meta name="description" content="Curadoria de achados com a estética Cerberus.">
+<link rel="stylesheet" href="style.css">
+
+<!-- ============================================================
+     META PIXEL — troque SEU_PIXEL_ID_META pelo ID real
+     (Meta Ads Manager > Eventos > Pixels > criar/copiar ID)
+     ============================================================ -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'SEU_PIXEL_ID_META');
+fbq('track', 'PageView');
+</script>
+
+<!-- ============================================================
+     TIKTOK PIXEL — troque SEU_PIXEL_ID_TIKTOK pelo ID real
+     (TikTok Ads Manager > Assets > Events > criar/copiar ID)
+     ============================================================ -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+  ttq.load('SEU_PIXEL_ID_TIKTOK');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">CERBERUS</div>
+  <h1 class="title">Cerberus <span>Finds</span></h1>
+  <p class="subtitle">Curadoria de achados — os itens que valem a pena, sem enrolação.</p>
+</header>
+
+<nav class="tabs" id="tabs"></nav>
+
+<main class="grid" id="grid">
+  <div class="empty">Carregando...</div>
+</main>
+
+<footer class="footer">
+  <p>Cerberus Finds faz parte da Cerberus. Links de afiliado — ao comprar, você apoia o projeto sem pagar nada a mais.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
