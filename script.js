@@ -10,7 +10,7 @@
    sem internet, etc.), o site cai automaticamente para products.json —
    nunca fica com a página em branco.
    ========================================================================== */
-const SHEET_CSV_URL = "";
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vThrqwiWE-ZCFRSbXgJtY5ZSfVq-d9wtvG45udHeXRDUvO7Ly_TCW1FjZEzfj2dYQHiTOtTTpogBoUD/pub?gid=134983700&single=true&output=csv";
 
 /* Colunas esperadas na planilha (nomes da primeira linha, sem acento):
    id | title | category | price | commissionPct | description |
