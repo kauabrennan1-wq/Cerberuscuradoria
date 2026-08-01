@@ -26,10 +26,11 @@ const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vThrqwiWE
 // Rótulos bonitos pra categorias conhecidas. Categoria que não estiver aqui
 // aparece com a primeira letra maiúscula, automaticamente.
 const CATEGORY_LABELS = {
-  espelhos: "Espelhos",
-  decor: "Objetos",
-  setup: "Setup",
-  acessorios: "Acessórios",
+  roupas: "roupas",
+  decoracao: "Decoração",
+  moveis: "Móveis",
+  iluminacao: "Iluminação",
+  diversos: "Diversos",
 };
 
 let allProducts = [];
