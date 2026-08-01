@@ -2,15 +2,8 @@
   "meta": {
     "brand": "Cerberus Finds",
     "updatedAt": "2026-07-31",
-    "note": "Fonte única de verdade dos produtos ativos na página. Espelha as colunas: produto | categoria | preço | comissão % | link afiliado | status | data postagem | views | cliques | vendas atribuídas. Campos de performance (views/cliques/vendas) ficam na planilha, não aqui — aqui só o necessário pra renderizar a página."
+    "note": "Fallback offline. A fonte principal agora é a planilha Google Sheets configurada em SHEET_CSV_URL no script.js — este arquivo só é lido se SHEET_CSV_URL estiver vazio ou se o fetch da planilha falhar. Ver README.md > 'Atualizar produtos'."
   },
-  "categories": [
-    { "id": "all", "label": "Todos" },
-    { "id": "espelhos", "label": "Espelhos" },
-    { "id": "decor", "label": "Objetos" },
-    { "id": "setup", "label": "Setup" },
-    { "id": "acessorios", "label": "Acessórios" }
-  ],
   "products": [
     {
       "id": "prod-001",
@@ -19,10 +12,13 @@
       "price": 93.99,
       "commissionPct": 12,
       "description": "Formato orgânico, moldura caramelo. Frete grátis, nota 4.6 com mais de 50 mil vendidos.",
-      "image": "assets/prod-001.jpg",
+      "image1": "assets/prod-001.jpg",
+      "image2": "",
+      "image3": "",
+      "image4": "",
       "affiliateUrl": "COLE_AQUI_O_LINK_GERADO_NO_MERCADO_LIVRE",
       "status": "ativo",
-      "featured": true
+      "featured": "TRUE"
     },
     {
       "id": "prod-002",
@@ -31,10 +27,13 @@
       "price": 128.00,
       "commissionPct": 28,
       "description": "Iluminação touch com 3 tons de LED. Nota 4.9, mais de 3,9 mil afiliados já promovendo.",
-      "image": "assets/IMG_1833.jpeg",
-      "affiliateUrl": "https://s.shopee.com.br/8AUwEY9l8v",
+      "image1": "assets/prod-002.jpg",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "affiliateUrl": "COLE_AQUI_O_LINK_GERADO_NA_SHOPEE",
       "status": "ativo",
-      "featured": false
+      "featured": "FALSE"
     }
   ]
 }
